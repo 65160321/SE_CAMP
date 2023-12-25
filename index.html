@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        button{
-        }
-    </style>
-    <head>
-        <title>Page Title</title>
-        <meta charset="utf-8" />
-    </head>
-    <body bgcolor="F5E8C7">
-        <form>
-            <center>
-                <h1>
-                    <font style="color: #818FB4;">Workshop #HTML - FORM</font>
-                </h1>
-                <table>
+<style>
+    button {}
+</style>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="utf-8" />
+</head>
+
+<body bgcolor="F5E8C7">
+    <form>
+        <center>
+            <h1>
+                <font style="color: #818FB4;">Workshop #HTML - FORM</font>
+            </h1>
+            <table>
                 <tr>
                     <td>
                         <label for="">ชื่อ</label>
@@ -52,13 +53,9 @@
                         <label for="">เพศ</label>
                     </td>
                     <td>
-                        <input id="ชาย"
-                               type="radio" 
-                               name="same_radio">
+                        <input id="ชาย" type="radio" name="same_radio">
                         <label for="">ชาย</label>
-                        <input id="หญิง"
-                               type="radio"
-                               name="same_radio">
+                        <input id="หญิง" type="radio" name="same_radio">
                         <label for="">หญิง</label>
                     </td>
                 </tr>
@@ -97,15 +94,9 @@
                         <label for="">แนวเพลงที่ชอบ</label>
                     </td>
                     <td>
-                        <input id="เพื่อชีวิต"
-                               type="radio" 
-                               name="same_radio">เพื่อชีวิต
-                        <input id="ลูกทุ่ง"
-                               type="radio" 
-                               name="same_radio">ลูกทุ่ง
-                        <input id="อื่นๆ"
-                               type="radio" 
-                               name="same_radio">อื่นๆ
+                        <input id="เพื่อชีวิต" type="radio" name="same_radio">เพื่อชีวิต
+                        <input id="ลูกทุ่ง" type="radio" name="same_radio">ลูกทุ่ง
+                        <input id="อื่นๆ" type="radio" name="same_radio">อื่นๆ
                     </td>
                 </tr>
                 <tr>
@@ -128,6 +119,28 @@
         </center>
     </form>
 
+    <?php $multi_x = 2; ?>
+    <h1>ตารางสูตรคูณแม่
+        <?php echo $multi_x ?>
+    </h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>x</td>
+                <td></td>
+                <td>=</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <style>
+        table {
+            width: 150px;
+            height: 265px;
+        }
+    </style>
 
 </body>
 
