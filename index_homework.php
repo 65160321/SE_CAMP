@@ -4,7 +4,8 @@
     </head>
 
     <body>
-    <?php $multi_x = 2; ?>
+        <center>
+        <?php $multi_x = 2; ?>
     <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
 
     <table>
@@ -25,5 +26,6 @@
             height: 265px;
         }
     </style>
-</body>
+        </center>
+    </body>
 </html>
