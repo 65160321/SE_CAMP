@@ -110,7 +110,7 @@
                                 </div>
                                 <div class="card-footer">
                                     <button type="reset" class="btn btn-primary">Reset</button>
-                                    <button type="submit" class="btn btn-primary float-right    ">Submit</button>
+                                    <button type="submit" class="btn btn-primary float-right">Submit</button>
                                   </div>
                             </form>
                         </div>
