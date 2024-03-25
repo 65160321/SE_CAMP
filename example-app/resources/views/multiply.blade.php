@@ -37,7 +37,7 @@
 <div id="content">
   <label for="num">Enter a number:</label>
   <input type="number" id="num">
-  <button id="generateTable">Generate Table</button>
+  <button id="generateTable">Generate</button>
   <div id="multiplicationTable"></div>
 </div>
 
