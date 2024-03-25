@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
 
 Route::get('/login', [MyAuth::class, 'login_view'])->name('login');
 Route::get('/register', [MyAuth::class, 'register_view']);
@@ -44,6 +46,10 @@ Route::resource('/my-controller4', MyController::class);
 
 Route::get('/', function () {
     return view('welcome'); // welcome.blade.php
+});
+
+Route::get('/multiply', function () {
+    return view('multiply'); // multiply.blade.php
 });
 
 // use Illuminate\Http\Request;
